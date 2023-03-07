@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(194, 227, 255);
+    display: flex;
+    justify-content: center;
+}
+
+body main {
+    max-width: 800px;
+    min-width: 350px;
+    text-align: center;
+}
+
+body main div {
+    margin-top: 15px;
+}
+
+body h1 {
+    padding: 30px 5px;
+    font-family: 'Gloock', serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    color: rgb(0, 0, 59);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
+}
+
+body h2 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
+    padding: 30px 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+}
+
+body h3{
+    padding: 0px 5px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
+}
+
+body img {
+    padding: 10px 5px;
+    border-radius: 40px;
+}
+
+body img#icons {
+    max-width: 300px;
+}
+
+body p {
+    padding: 5px 5px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
+}
+
+body a {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(99, 99, 255);
+    padding: 3px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    border: 2px solid white;
+    transition: .2s ease-out;
+}
+
+body a:active {
+    background-color: darkblue;
+    color: white;
+}
