@@ -16,8 +16,9 @@ body {
 }
 
 body main {
-    max-width: 800px;
+    width: 900px;
     min-width: 350px;
+    margin: auto;
     text-align: center;
 }
 
